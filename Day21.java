@@ -5,7 +5,6 @@ public class Day21 {
 
         System.out.println("Sebelum ditukar: a = " + a + ", b = " + b);
 
-        // tukar nilai tanpa variabel tambahan
         a = a + b;
         b = a - b;
         a = a - b;
