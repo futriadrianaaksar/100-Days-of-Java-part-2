@@ -1,8 +1,15 @@
 public class Day21 {
     public static void main(String[] args) {
-        int sisi = 6;
+        int a = 5;
+        int b = 10;
 
-        System.out.println("Sisi persegi: " + sisi);
-        System.out.println("Luas persegi: " + (sisi * sisi));
+        System.out.println("Sebelum ditukar: a = " + a + ", b = " + b);
+
+        // tukar nilai tanpa variabel tambahan
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("Sesudah ditukar: a = " + a + ", b = " + b);
     }
 }
